@@ -73,21 +73,21 @@ on:
           - "678"
           - "123"
           - "345"
-        default: "off"
+        default: "678"
       droidspaces_ntsync:
         description: "启用 Droidspaces 容器 NTSync 支持（需启用 Droidspaces）"
         type: boolean
-        default: false
+        default: true
 
       # ==================== 功能开关 ====================
       use_zram:
         description: "启用 ZRAM 增强算法"
         type: boolean
-        default: false
+        default: true
       use_bbg:
         description: "启用 BBG 防格机"
         type: boolean
-        default: false
+        default: true
       use_rekernel:
         description: "启用 Re-Kernel 驱动"
         type: boolean
@@ -101,7 +101,7 @@ on:
       build_a12_5_10:
         description: "Android 12 - 5.10"
         type: boolean
-        default: false
+        default: true
       build_a13_5_15:
         description: "Android 13 - 5.15"
         type: boolean
